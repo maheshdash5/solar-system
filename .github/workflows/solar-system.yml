@@ -8,7 +8,7 @@ on:
       - 'feature/*'
 
 env:
-    MONGO_URI: 'mongodb+srv://superb-skink-surely.ngrok-free.app/admin'
+    MONGO_URI: 'mongodb+srv://cluster0.zg1hf.mongodb.net/solardb'
     MONGO_USERNAME: ${{ secrets.MONGO_USERNAME }}
     MONGO_PASSWORD: ${{ secrets.MONGO_PASSWORD }} 
 
